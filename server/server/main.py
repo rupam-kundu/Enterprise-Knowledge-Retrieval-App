@@ -46,6 +46,7 @@ sub_app = FastAPI(
 app.mount("/sub", sub_app)
 
 origins = [
+    f"https://file-q-and-a.globalnextgentech.com",
     f"http://localhost:3000"
 ]
 
